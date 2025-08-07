@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'lato';
+    src: url(/font/Lato/Lato-Regular.ttf) format(truetype);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(/font/Poppins/Poppins-Regular.ttf) format(truetype);
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F2F5F9;
+    font-family: 'lato';
+}
+
+.wrapper-card {
+    max-width: 30rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card__image {
+    width: inherit;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: inherit;
+}
+
+.shape {
+    position: absolute;
+    bottom: -0.2rem;
+    right: 0;
+    left: 0;
+}
+
+.card__text {
+    padding: 0 38px 24px;
+    border-bottom: 1px solid #F2F5F9;
+}
+
+.title {
+    margin-bottom: 16px;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'poppins';
+    color: #111729;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 24px 38px;
+}
+
+.person__image {
+    background-color: #F2F5F9;
+    border-radius: 100%;
+    overflow: hidden;
+    padding:6px;
+}
+
+.profile {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: inherit;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.person__name {
+    font-family: 'poppins';
+    font-weight: 600;
+    color: #111729;
+}
+
+.text,
+.person__comment {
+    color: #4A5567;
+}

@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'sora';
+    src: url(/font/Sora/Sora-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: "sora";
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-color: #FAFAF9;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper__box {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 16px 16px 20px 16px;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+}
+
+.box__image {
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.box__title {
+    margin-bottom: 1rem;
+}
+
+.box__title span {
+    border-radius: 2rem;
+    padding: 6px 16px;
+    background-color: #F2EAFD;
+    font-size: 0.7em;
+    color: #7C19EE;
+}
+
+.box__text {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    width: 336px;
+}
+
+.title {
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text {
+    padding-bottom: 20px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.text,
+.bottom__text {
+    color: #5e5e5e;
+    font-weight: 300;
+}
+
+.bottom__text {
+    font-size: 12px;
+}
