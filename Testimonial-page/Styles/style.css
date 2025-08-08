@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'sora';
+    src: url(/font/Sora/Sora-Regular.ttf) format(truetype);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    /* background-color: #D4D4D8; */
+    font-family: 'sora';
+}
+
+#star{
+    color: #F5C044;
+}
+#star-gray{
+    color: #D4D4D8;
+}
+#tick{
+    color: #4CA154;
+}
+
+.wrapper{
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    padding: 150px 100px;
+    margin: 0 auto;
+    background-color: #FAFAF9;
+}
+
+.body-left{
+    width: 50%;
+}
+
+.body-right{
+    width: 50%;
+    position: relative;
+}
+
+.star-head{
+    background-color: #F5C044;
+    padding: 0.5rem;
+    border-radius: 100%;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 36px;
+    margin-bottom: 1rem;
+}
+
+.text{
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+.checked{
+    line-height: 2.5;
+}
+
+.check1,
+.check2,
+.check3{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.check1 p,
+.check2 p,
+.check3 p{
+    font-size: 14px;
+}
+
+.google{
+    width: 22rem;
+    height: 12rem;
+    border-radius: 12px;
+    padding: 16px 38px;
+    background-color: #4CA154;
+    margin-bottom: 2rem;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 4rem;
+    bottom: 0;
+}
+
+.meta{
+    width: 22rem;
+    height: 12rem;
+    border-radius: 12px;
+    padding: 16px 38px;
+    background-color: #4CA154; 
+    background-color: #FFFFFF;   
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.logo-google{
+    width: 5rem;
+}
+
+.logo-meta{
+    width: 5rem;
+}
+
+.logo-score{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.description h3{
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.description p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+p{
+    color: #52525A;
+}
+
+h2,h3{
+    color: #18181B;
+}
